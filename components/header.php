@@ -63,7 +63,7 @@
                 <a href="/" class="navbar-brand p-0">
                     <div class="d-flex align-items-center">
                         <img src="img/logo-icon.png" alt="Logo">
-                        <h5 class="m-0">Innovative Idea Solutions</h5>
+                        <h6 class="m-0">Innovative Idea Solutions</h6>
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
