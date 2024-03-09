@@ -13,13 +13,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="img/computer.jpg" class="d-block w-100" style="height:550px;"  alt="...">
+                <img src="img/computer.jpg" class="d-block w-100" style="height:450px;"  alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="img/print2.jpg" class="d-block w-100" style="height:550px;" alt="...">
+                <img src="img/print2.jpg" class="d-block w-100" style="height:450px;" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="img/print.jpg" class="d-block w-100" style="height:550px;" alt="...">
+                <img src="img/print.jpg" class="d-block w-100" style="height:450px;" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
