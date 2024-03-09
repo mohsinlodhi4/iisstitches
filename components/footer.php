@@ -6,7 +6,8 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Address<span></span></p>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>2400 NW 30th Street Oklahoma City 73112</p>
+                        <!-- <p><i class="fa fa-map-marker-alt me-3"></i>2400 NW 30th Street Oklahoma City 73112</p> -->
+                        <p><i class="fa fa-map-marker-alt me-3"></i>1525 E 2nd st edmond ok 73034</p>
                         <p><i class="fa fa-phone-alt me-3"></i>405-403-2827</p>
                         <p><i class="fa fa-envelope me-3"></i>iis.embroidery@gmail.com</p>
                         <div class="d-flex pt-2">
