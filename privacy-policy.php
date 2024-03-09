@@ -5,105 +5,69 @@
     <div class="container ">
       <div class="">
           <!-- <h2>Creative-ado Privacy Policy </h2>
-          <p>Last Updated: October 31st 2023</p>
           <br> -->
+          <p>Last Updated: March 8th 2024</p>
           <div class="mt-3">
               <h3>Introduction</h3>
               <p >
-                  Welcome to Innovative Idea Solutions. Your privacy is important to us, and iisstitches.com are committed to protecting your personal information. This Privacy Policy explains how iisstitches.com collect, use, disclose, and safeguard your personal information when you visit our website or use our services.
+              This Privacy Policy describes how Innovative Idea Solutions ("we," "us," or "our") collects, uses, and shares information about you when you visit our website https://iisstitches.com/ (the "Site") or otherwise interact with us.
               </p>
           </div>   
           <div class="mt-3">
               <h3>Information We Collect</h3>
               <div style="margin-left: 20px">
-                  <h4>Information You Provide</h4>
+                  <h4>Personal Information</h4>
                   <p>
-                      We may collect personal information that you voluntarily provide when you:
-                        <ul class="styled">
-                            <li>Contact us through our website</li>
-                            <li>Ask for Quote</li>
-                        </ul>
-                        <br>
-                        The information we collect may include, but is not limited to:
-                        <ul class="styled">
-                            <li>Name</li>
-                            <li>Email Address</li>
-                            <li>Document (if any)</li>
-                        </ul>
+                    When you visit the Site, we may collect certain personal information you provide voluntarily, such as your name, email address, and phone number when you contact us through forms on the Site.
                     </p>
                 </div>
               <div class="mt-2" style="margin-left: 20px;">
-                  <h4>Information We Automatically Collect</h4>
+                  <h4>Usage Information</h4>
                   <p>
-                  We may automatically collect certain information when you visit our website, including:
-                        <ul class="styled">
-                            <li>IP address</li>
-                            <li>Browser type</li>
-                            <li>Operating system</li>
-                            <li>Referring URLs</li>
-                            <li>Clickstream data</li>
-                            <li>Interaction with our website</li>
-
-                        </ul>
+                    We may automatically collect certain information about your device and how you interact with our Site, including your IP address, browser type, pages visited, and referring URL.
                     </p>
                 </div>
           </div>   
         <div class="mt-3">
-            <h3>Use of Information</h3>
+            <h3>How We Use Information</h3>
             <div>
-            We use the collected information for the following purposes:    
+            We may use the information we collect for various purposes, including to: 
                 <ul class="styled">
-                    <li>To provide and personalize our services</li>
-                    <li>To process transactions</li>
-                    <li>To respond to your inquiries and requests</li>
-                    <li>To improve our website and services</li>
-                    <li>To comply with legal obligations</li>
+                    <li>Provide, operate, and improve our Site</li>
+                    <li>Communicate with you, including responding to your inquiries and providing customer support</li>
+                    <li>Analyze trends and usage of our Site</li>
+                    <li>Protect against, identify, and prevent fraud and other unlawful activities.</li>
                 </ul>
             </div>
         </div>   
         <div class="mt-3">
-            <h3>Sharing Your Information</h3>
+            <h3>Information Sharing</h3>
             <div>
-            We may share your information with:   
-                <ul class="styled">
-                    <li>Legal authorities as required by law</li>
-                    <li>For marketing or advertising purposes with your consent</li>
-                </ul>
+                We may share your information with third-party service providers who perform services on our behalf, such as web hosting, data analysis, and customer service. We may also share information with legal or governmental authorities if required to do so by law or in response to valid requests.
             </div>
         </div>   
         <div class="mt-3">
-            <h3>Cookies and Tracking Technologies</h3>
+            <h3>Data Security</h3>
             <div>
-                We use cookies and similar tracking technologies to enhance your experience on our website. You can manage your cookie preferences through your browser settings.   
+            We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
             </div>
         </div>   
         <div class="mt-3">
             <h3>Your Choices</h3>
             <div>
-                 You have the right to:
-                 <ul class="styled">
-                    <li>Access and update your personal information</li>
-                    <li>Delete your personal information (subject to legal obligations)</li>
-                    <li>Opt out of marketing communications</li>
-                </ul>
+                You may choose not to provide certain personal information, but this may limit your ability to access certain features of the Site. You can opt-out of receiving promotional communications from us by following the instructions provided in those communications.
             </div>
         </div>   
         <div class="mt-3">
-            <h3>Security</h3>
+            <h3>Changes to This Privacy Policy</h3>
             <div>
-            We take reasonable measures to protect your personal information. However, no method of transmission or storage is entirely secure.
+            We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by posting the updated Privacy Policy on the Site and updating the "Last Updated" date.
             </div>
-        </div>   
-        <div class="mt-3">
-            <h3>Changes to this Privacy Policy</h3>
-            <div>
-                We may update this Privacy Policy to reflect changes in our data practices. When we make changes, we will revise the "Last Updated" date at the beginning of this policy.
-            </div>
-        </div>   
+        </div>  
         <div class="mt-3">
             <h3>Contact Us</h3>
             <div>
-            If you have any questions or concerns about this Privacy Policy, please contact us at iis.embroidery@gmail.com
+            If you have any questions or concerns about our Privacy Policy or our practices regarding your personal information, please contact us at +1 (405)-403-2827
             </div>
         </div>   
 

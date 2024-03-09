@@ -25,6 +25,13 @@
     background-color: #e7a223;
 }
 
+.btn-check:focus+.btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary:disabled  {
+    color: #fff;
+    background-color: #f26728;
+    border-color: #FBA504;
+    box-shadow: 0 0 0 0.25rem rgba(251, 165, 4,0.5);
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;

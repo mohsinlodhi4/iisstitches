@@ -1,39 +1,39 @@
 <?php require_once(__DIR__."/components/header.php") ?>
 
 
-        <!-- Feature Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
-                            <h5 class="mb-3">Digital Marketing</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-search text-primary mb-4"></i>
-                            <h5 class="mb-3">SEO & Backlinks</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
-                            <h5 class="mb-3">Design & Development</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </div>
-                    </div>
+<!-- Feature Start -->
+<div class="container-xxl py-5">
+    <div class="container py-5 px-lg-5">
+        <div class="row g-4">
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="feature-item bg-light rounded text-center p-4">
+                    <i class="fa fa-3x fa-trophy text-primary mb-4"></i>
+                    <h5 class="mb-3">Super Quality</h5>
+                    <p class="m-0">IIS is very concerned about quality and just to retain the customers trust and a long lasting business relation we have setup in house sewing facility. Even a single line that is digitized in company is sewed out on our own machines and only after the approval of our best quality checkers it is delivered to our customers.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="feature-item bg-light rounded text-center p-4">
+                    <i class="fa fa-3x fa-clock text-primary mb-4"></i>
+                    <h5 class="mb-3">Fastest Turnaround</h5>
+                    <p class="m-0">We know the value of commitment and understand the need to meet the deadline that's why we have setup such an ultra-fast system for our customers. We proudly offer the fastest turnaround in industry which is 2 hours for Rush Jobs and 4 to 6 Hours for normal Jobs.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="feature-item bg-light rounded text-center p-4">
+                    <i class="fa fa-3x fa-dollar-sign text-primary mb-4"></i>
+                    <h5 class="mb-3">Competitive Price</h5>
+                    <p class="m-0">Keeping the embroidery industry in our mind we have made the pricing very simple, affordable and and cost effective as compared to our competitors with flexible payment options. We also offer special pricing for bulk orders.</p>
                 </div>
             </div>
         </div>
-        <!-- Feature End -->
+    </div>
+</div>
+<!-- Feature End -->
 
 
         <!-- About Start -->
-        <div class="container-xxl py-5">
+        <!-- <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- About End -->
 
 
@@ -109,7 +109,7 @@
         
 
         <!-- Team Start -->
-        <div class="container-xxl py-5">
+        <!-- <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
                     <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
@@ -163,7 +163,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Team End -->
         
         

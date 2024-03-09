@@ -86,6 +86,59 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#contact").submit(function(e){
+        $("#form-submit").prop('disabled', true)
+        $("#form-submit").html(`
+          <span class="spinner-grow spinner-grow-min text-light" role="status" bis_skin_checked="1">
+          </span>
+          &nbsp; <span style='position:relative; top:-7px'> Sending...</span>
+        `)
+        const resetSubmitButton = ()=>{
+            $("#contact").trigger("reset");
+            $("#form-submit").html(`Send Message Now`)
+            $("#form-submit").prop('disabled', false)
+        }
+        let data = {
+          name: $("#name").val(),
+          email: $("#email").val(),
+          subject: $("#subject").val(),
+          message: $("#message").val(),
+          sendEmail: true,
+        }
+        console.log(data);
+        e.preventDefault();
+        $.ajax({
+          url: 'functions/sendEmail.php',
+          type: 'POST',
+          data: data,
+          success: function(response){
+            resetSubmitButton()
+            Swal.fire({
+              icon: 'success',
+              title: 'Congratulations',
+              text: 'Your message has been sent to Creative Ado',
+              confirmButtonColor: '#33ccc5',
+            })
+          },
+          error: function(data){
+            resetSubmitButton()
+            console.log(data);
+          }
+        })
+      })
+
+      $("#newsLetterSubmit").click(function(){
+        let mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        let inputText = $("#newsLetterEmail").val();
+        if(inputText && inputText.match(mailformat)) {
+            $('#spinner').addClass('show');
+        }
+      })
+
+    })
+  </script>
 </body>
 
 </html>

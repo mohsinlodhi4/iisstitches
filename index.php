@@ -1,28 +1,66 @@
 <?php require_once(__DIR__."/components/header.php") ?>
 
+<!-- Carousel Start -->
+<div class="container-xxl">
+    <div class="container px-lg-5">
+        <div class="row g-4">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="img/computer.jpg" class="d-block w-100" style="height:550px;"  alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="img/print2.jpg" class="d-block w-100" style="height:550px;" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="img/print.jpg" class="d-block w-100" style="height:550px;" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Carousel End -->
+
 <!-- Feature Start -->
 <div class="container-xxl py-5">
     <div class="container py-5 px-lg-5">
         <div class="row g-4">
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="feature-item bg-light rounded text-center p-4">
-                    <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
-                    <h5 class="mb-3">Digital Marketing</h5>
-                    <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    <i class="fa fa-3x fa-trophy text-primary mb-4"></i>
+                    <h5 class="mb-3">Super Quality</h5>
+                    <p class="m-0">IIS is very concerned about quality and just to retain the customers trust and a long lasting business relation we have setup in house sewing facility. Even a single line that is digitized in company is sewed out on our own machines and only after the approval of our best quality checkers it is delivered to our customers.</p>
                 </div>
             </div>
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="feature-item bg-light rounded text-center p-4">
-                    <i class="fa fa-3x fa-search text-primary mb-4"></i>
-                    <h5 class="mb-3">SEO & Backlinks</h5>
-                    <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    <i class="fa fa-3x fa-clock text-primary mb-4"></i>
+                    <h5 class="mb-3">Fastest Turnaround</h5>
+                    <p class="m-0">We know the value of commitment and understand the need to meet the deadline that's why we have setup such an ultra-fast system for our customers. We proudly offer the fastest turnaround in industry which is 2 hours for Rush Jobs and 4 to 6 Hours for normal Jobs.</p>
                 </div>
             </div>
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="feature-item bg-light rounded text-center p-4">
-                    <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
-                    <h5 class="mb-3">Design & Development</h5>
-                    <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    <i class="fa fa-3x fa-dollar-sign text-primary mb-4"></i>
+                    <h5 class="mb-3">Competitive Price</h5>
+                    <p class="m-0">Keeping the embroidery industry in our mind we have made the pricing very simple, affordable and and cost effective as compared to our competitors with flexible payment options. We also offer special pricing for bulk orders.</p>
                 </div>
             </div>
         </div>
@@ -32,7 +70,7 @@
 
 
 <!-- About Start -->
-<div class="container-xxl py-5">
+<!-- <div class="container-xxl py-5">
     <div class="container py-5 px-lg-5">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -73,7 +111,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- About End -->
 
 
@@ -185,15 +223,16 @@
 <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5 px-lg-5">
         <div class="row justify-content-center">
-            <div class="col-lg-7 text-center">
+            <form method="POST" action="functions/sendNewsLetter.php" class="col-lg-7 text-center">
                 <p class="section-title text-white justify-content-center"><span></span>Newsletter<span></span></p>
                 <h1 class="text-center text-white mb-4">Stay Always In Touch</h1>
-                <p class="text-white mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo</p>
+                <!-- <p class="text-white mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo</p> -->
                 <div class="position-relative w-100 mt-3">
-                    <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px;">
-                    <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    <input type="hidden" name="sendNewsLetter" value="1" />
+                    <input name="email" id="newsLetterEmail" class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email" placeholder="Enter Your Email" style="height: 48px;" required>
+                    <button type="submit" id="newsLetterSubmit" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </div>
@@ -313,50 +352,51 @@
 <!-- Projects End -->
 
 
-<!-- Testimonial Start -->
-<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container py-5 px-lg-5">
-        <p class="section-title text-secondary justify-content-center"><span></span>Testimonial<span></span></p>
-        <h1 class="text-center mb-5">What Say Our Clients!</h1>
-        <div class="owl-carousel testimonial-carousel">
-            <div class="testimonial-item bg-light rounded my-4">
-                <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo.</p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 65px; height: 65px;">
-                    <div class="ps-4">
-                        <h5 class="mb-1">Client Name</h5>
-                        <span>Profession</span>
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <p class="section-title text-secondary justify-content-center"><span></span>Testimonial<span></span></p>
+                <h1 class="text-center mb-5">What Say Our Clients!</h1>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Absolutely blown away by the comprehensive services provided by Innovative Idea Solutions! Their team not only crafted a stunning logo for my brand but also seamlessly integrated it into a sleek website design.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Lindsay Kolowich Cox</h5>
+                                <span>Chief Operating Officer</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="testimonial-item bg-light rounded my-4">
-                <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo.</p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 65px; height: 65px;">
-                    <div class="ps-4">
-                        <h5 class="mb-1">Client Name</h5>
-                        <span>Profession</span>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>As a small business owner, finding a reliable partner for digital marketing and web development was crucial. Innovative Idea Solutions exceeded my expectations in every way. Couldn't be happier with the outcome!</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Mark Johnson</h5>
+                                <span>CEO</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="testimonial-item bg-light rounded my-4">
-                <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo.</p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 65px; height: 65px;">
-                    <div class="ps-4">
-                        <h5 class="mb-1">Client Name</h5>
-                        <span>Profession</span>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Working with Innovative Idea Solutions was an absolute pleasure! Their team's expertise in digital marketing strategies helped us reach our target audience effectively, resulting in a significant increase in online engagement and sales.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">David Smith</h5>
+                                <span>Creative Director</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- Testimonial End -->
+        <!-- Testimonial End -->
 
 
 <!-- Team Start -->
-<div class="container-xxl py-5">
+<!-- <div class="container-xxl py-5">
     <div class="container py-5 px-lg-5">
         <div class="wow fadeInUp" data-wow-delay="0.1s">
             <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
@@ -410,7 +450,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Team End -->
         
 
