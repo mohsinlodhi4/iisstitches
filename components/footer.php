@@ -7,7 +7,7 @@
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Address<span></span></p>
                         <!-- <p><i class="fa fa-map-marker-alt me-3"></i>1103 Wisconsin ave APT B joplin Mo 64801</p> -->
-                        <p><i class="fa fa-map-marker-alt me-3"></i>1525 E 2nd st edmond ok 73034</p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>1103 Wisconsin ave APT B joplin Mo 64801</p>
                         <p><i class="fa fa-phone-alt me-3"></i>870-494-0519</p>
                         <p><i class="fa fa-envelope me-3"></i>digitize.iis@gmail.com</p>
                         <div class="d-flex pt-2">
@@ -20,7 +20,7 @@
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
                         <a class="btn btn-link" href="about.php">About Us</a>
-                        <a class="btn btn-link" href="contact.pyp">Contact Us</a>
+                        <a class="btn btn-link" href="contact.php">Contact Us</a>
                         <a class="btn btn-link" href="privacy-policy.php">Privacy Policy</a>
                         <a class="btn btn-link" href="terms.php">Terms & Condition</a>
                         <!-- <a class="btn btn-link" href="">Career</a> -->
