@@ -5,9 +5,9 @@
                         <img style="width:280px;" src="./img/Logo-2.png" />
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Address<span></span></p>
+                        <p class="section-title text-white h5 mb-4">Contact<span></span></p>
                         <!-- <p><i class="fa fa-map-marker-alt me-3"></i>1103 Wisconsin ave APT B joplin Mo 64801</p> -->
-                        <p><i class="fa fa-map-marker-alt me-3"></i>1103 Wisconsin ave APT B joplin Mo 64801</p>
+                        <!-- <p><i class="fa fa-map-marker-alt me-3"></i>1103 Wisconsin ave APT B joplin Mo 64801</p> -->
                         <p><i class="fa fa-phone-alt me-3"></i>870-494-0519</p>
                         <p><i class="fa fa-envelope me-3"></i>digitize.iis@gmail.com</p>
                         <div class="d-flex pt-2">
